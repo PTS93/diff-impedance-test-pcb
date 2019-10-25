@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -78,9 +78,9 @@
 <library name="sma">
 <packages>
 <package name="SMA-EDGE-LAUNCH-4L-4020-N4">
-<smd name="GND_PAD2" x="2.286" y="-3.302" dx="4.572" dy="2.54" layer="1"/>
-<smd name="GND_PAD1" x="2.286" y="3.302" dx="4.572" dy="2.54" layer="1"/>
-<smd name="CENTER@1" x="1.905" y="0" dx="1.016" dy="3.81" layer="1" rot="R90"/>
+<smd name="GND_PAD2" x="2.286" y="-3.302" dx="4.572" dy="2.54" layer="1" thermals="no"/>
+<smd name="GND_PAD1" x="2.286" y="3.302" dx="4.572" dy="2.54" layer="1" thermals="no"/>
+<smd name="CENTER@1" x="1.905" y="0" dx="1.016" dy="3.81" layer="1" rot="R90" thermals="no"/>
 <polygon width="0" layer="1">
 <vertex x="0" y="2.032"/>
 <vertex x="0" y="1.016"/>
@@ -93,14 +93,14 @@
 <vertex x="4.572" y="-1.016"/>
 <vertex x="4.572" y="-2.032"/>
 </polygon>
-<pad name="GND@3" x="1.143" y="1.651" drill="0.3" stop="no"/>
-<pad name="GND@5" x="1.143" y="-1.651" drill="0.3" stop="no"/>
-<pad name="GND@4" x="3.683" y="1.651" drill="0.3" stop="no"/>
-<pad name="GND@6" x="3.683" y="-1.651" drill="0.3" stop="no"/>
-<pad name="GND@7" x="1.143" y="-3.937" drill="0.3"/>
-<pad name="GND@8" x="3.683" y="-3.937" drill="0.3"/>
-<pad name="GND@1" x="1.143" y="3.937" drill="0.3"/>
-<pad name="GND@2" x="3.683" y="3.937" drill="0.3"/>
+<pad name="GND@3" x="1.143" y="1.651" drill="0.3" stop="no" thermals="no"/>
+<pad name="GND@5" x="1.143" y="-1.651" drill="0.3" stop="no" thermals="no"/>
+<pad name="GND@4" x="3.683" y="1.651" drill="0.3" stop="no" thermals="no"/>
+<pad name="GND@6" x="3.683" y="-1.651" drill="0.3" stop="no" thermals="no"/>
+<pad name="GND@7" x="1.143" y="-3.937" drill="0.3" thermals="no"/>
+<pad name="GND@8" x="3.683" y="-3.937" drill="0.3" thermals="no"/>
+<pad name="GND@1" x="1.143" y="3.937" drill="0.3" thermals="no"/>
+<pad name="GND@2" x="3.683" y="3.937" drill="0.3" thermals="no"/>
 <wire x1="-1.5762" y1="-2.625" x2="-9.0762" y2="-2.625" width="0.127" layer="21"/>
 <wire x1="-1.5762" y1="2.625" x2="-7.9512" y2="2.625" width="0.127" layer="21"/>
 <wire x1="-9.0762" y1="-2.625" x2="-9.0762" y2="2.625" width="0.127" layer="51"/>
@@ -123,10 +123,10 @@
 <wire x1="4.064" y1="-3.2512" x2="4.064" y2="-2.286" width="0.127" layer="51"/>
 <wire x1="4.064" y1="-2.286" x2="0" y2="-2.286" width="0.127" layer="51"/>
 <wire x1="0" y1="-2.286" x2="0" y2="-3.2512" width="0.127" layer="51"/>
-<pad name="GND@14" x="2.413" y="3.937" drill="0.3"/>
-<pad name="GND@15" x="2.413" y="-3.937" drill="0.3"/>
-<pad name="GND@16" x="2.413" y="-1.651" drill="0.3" stop="no"/>
-<pad name="GND@17" x="2.413" y="1.651" drill="0.3" stop="no"/>
+<pad name="GND@14" x="2.413" y="3.937" drill="0.3" thermals="no"/>
+<pad name="GND@15" x="2.413" y="-3.937" drill="0.3" thermals="no"/>
+<pad name="GND@16" x="2.413" y="-1.651" drill="0.3" stop="no" thermals="no"/>
+<pad name="GND@17" x="2.413" y="1.651" drill="0.3" stop="no" thermals="no"/>
 <smd name="BOTTOM_GND" x="2.286" y="0" dx="4.572" dy="9.144" layer="16" thermals="no" cream="no"/>
 <polygon width="0" layer="1">
 <vertex x="3.81" y="0.508"/>
@@ -196,8 +196,8 @@
 <vertex x="4.572" y="-2.2352"/>
 <vertex x="0" y="-2.2352"/>
 </polygon>
-<pad name="GND@9" x="4.572" y="0.889" drill="0.3" stop="no"/>
-<pad name="GND@10" x="4.572" y="-0.889" drill="0.3" stop="no"/>
+<pad name="GND@9" x="4.572" y="0.889" drill="0.3" stop="no" thermals="no"/>
+<pad name="GND@10" x="4.572" y="-0.889" drill="0.3" stop="no" thermals="no"/>
 </package>
 </packages>
 <symbols>
